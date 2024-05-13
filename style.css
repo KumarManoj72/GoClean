@@ -204,7 +204,7 @@ display: block;
   }
 
   .heading-primary {
-    font-size: 5rem;
+    font-size: 6rem;
     color: #333;
     font-weight: 700;
     letter-spacing: -0.5px;
@@ -214,7 +214,8 @@ display: block;
   }
   .hero-text-box .hero-description{
     margin-top: 2rem;
-    font-size: 1.8rem;
+    font-size: 2rem;
+
   }
   .hero-description > span{
     color: rgb(23, 167, 224);
@@ -432,9 +433,10 @@ display: block;
 
 .section-services .single-service .title {
     margin-bottom: 18px;
-	font-weight: 700;
+    color: #282828;
     font-size: 23px;
     transition: color .3s;
+    text-transform:uppercase;
 }
 
 .section-services .single-service:hover .title {
@@ -494,7 +496,7 @@ display: block;
 .header-section{
     margin: 10px 0px;
     margin-bottom: 30px;
-    min-height: 200px;
+    /* min-height: 200px; */
 }
 .work_container_text h1{
     font-size: 3.5rem;
@@ -1099,7 +1101,7 @@ display: block;
   max-width: 820px;
   background-color: #fff;
   border-radius: 10px;
-  box-shadow: 5px 0 20px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 0 20px 1px rgba(0, 0, 0, 0.5);
   overflow: hidden;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
