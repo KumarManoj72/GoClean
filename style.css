@@ -187,8 +187,14 @@ display: block;
     background-color: white;
     padding:20px 0px;
     height: auto;
+    margin-top: 4rem;
   }
-  
+  .section-hero .heading-primary-about{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-weight: 800;
+    color: #333;
+  }
   .hero {
     max-width: 130rem;
     display: grid;
@@ -227,9 +233,11 @@ display: block;
   }
   
   .hero-description {
-    font-size: 1.8rem;
+    font-size: 2rem;
     line-height: 1.5;
+    text-align: justify;
     margin-bottom: 2.8rem;
+    word-spacing: 3px;
   }
   
   .hero-img-box {
@@ -327,7 +335,7 @@ display: block;
 	font-family: "Poppins", sans-serif;
 	background-color: #e6edf7;
 	color: #202020;
-    padding-bottom: 120px;
+  padding-bottom: 120px;
 }
 
 .section-services .header-section, .our-work-demo .header-section{
@@ -376,7 +384,7 @@ display: block;
     margin-top: 30px;
     background-color: #fff;
     border-radius: 10px;
-    padding: 40px 30px;
+    padding: 40px 20px;
     overflow: hidden;
     box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.5);
 }
@@ -426,7 +434,7 @@ display: block;
 
 .section-services .single-service:hover .icon {
 	background-color:#ff4500;
-	color: green;
+	color: white;
   
 }
 
@@ -446,6 +454,7 @@ display: block;
     margin-bottom: 20px;
     font-size: 14px;
     transition: color .3s;
+    text-align: justify;
 }
 
 .section-services .single-service:hover .description {
@@ -500,11 +509,12 @@ display: block;
 .work_container_text h1{
     font-size: 3.5rem;
     font-weight: 800;
-    padding: 5px
+    padding: 5px;
 }
 .work_container_text p{
     font-size: 1.6rem;
     padding: 5px;
+    text-align: justify;
 }
 .work_container_text .contact_btn{
     margin: 5px;
